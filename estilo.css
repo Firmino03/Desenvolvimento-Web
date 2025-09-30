@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #f9cadc;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.botao {
+  background-color: #fce8a5;
+  color: #333;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #d5edb9;
+  opacity: 0.9;
+}
+
+.botao:focus {
+  outline: 2px solid #f9cadc;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f9cadc;
+}
+
+form {
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #fce8a5;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #d5edb9;
+}
+
+footer {
+  background-color: #fce8a5;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
